@@ -92,5 +92,38 @@ table {
 
 
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-bottom: 1.5rem;
+}
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 1000px) {
+
+    html {
+        background-color: hsl(30, 54%, 90%);
+    }
+
+    body {
+        margin: 10% 30%;
+        border-radius: 2rem;
+    }
+
+    .img-container {
+        margin: 2rem;
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+
+    img {
+        margin: 2rem 0;
+        border-radius: 1rem;
+    }
+
+    .table-row-value,
+    .table-row-key {
+    text-align: start;
+}
+
+}
